@@ -3,8 +3,23 @@
   "WorkspaceRootPath": "E:\\sami\\aspnetrepos\\DashboardFinnhub\\DashboardFinnhub\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{63144DFC-B0DC-438D-B22C-6952A2433600}|DashboardFinnhub.csproj|e:\\sami\\aspnetrepos\\dashboardfinnhub\\dashboardfinnhub\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63144DFC-B0DC-438D-B22C-6952A2433600}|DashboardFinnhub.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63144DFC-B0DC-438D-B22C-6952A2433600}|DashboardFinnhub.csproj|e:\\sami\\aspnetrepos\\dashboardfinnhub\\dashboardfinnhub\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63144DFC-B0DC-438D-B22C-6952A2433600}|DashboardFinnhub.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{63144DFC-B0DC-438D-B22C-6952A2433600}|DashboardFinnhub.csproj|e:\\sami\\aspnetrepos\\dashboardfinnhub\\dashboardfinnhub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63144DFC-B0DC-438D-B22C-6952A2433600}|DashboardFinnhub.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63144DFC-B0DC-438D-B22C-6952A2433600}|DashboardFinnhub.csproj|e:\\sami\\aspnetrepos\\dashboardfinnhub\\dashboardfinnhub\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{63144DFC-B0DC-438D-B22C-6952A2433600}|DashboardFinnhub.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\sami\\aspnetrepos\\DashboardFinnhub\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,18 +32,70 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\sami\\aspnetrepos\\DashboardFinnhub\\DashboardFinnhub\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\sami\\aspnetrepos\\DashboardFinnhub\\DashboardFinnhub\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T22:57:21.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\sami\\aspnetrepos\\DashboardFinnhub\\DashboardFinnhub\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\sami\\aspnetrepos\\DashboardFinnhub\\DashboardFinnhub\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T22:56:28.543Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": ".gitignore",
+              "DocumentMoniker": "E:\\sami\\aspnetrepos\\DashboardFinnhub\\.gitignore",
+              "RelativeDocumentMoniker": "..\\.gitignore",
+              "ToolTip": "E:\\sami\\aspnetrepos\\DashboardFinnhub\\.gitignore",
+              "RelativeToolTip": "..\\.gitignore",
+              "ViewState": "AQIAABcBAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-05T22:53:19.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\sami\\aspnetrepos\\DashboardFinnhub\\DashboardFinnhub\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "E:\\sami\\aspnetrepos\\DashboardFinnhub\\DashboardFinnhub\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-05T22:49:05.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\sami\\aspnetrepos\\DashboardFinnhub\\DashboardFinnhub\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\sami\\aspnetrepos\\DashboardFinnhub\\DashboardFinnhub\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-05T22:35:48.52Z",
               "EditorCaption": ""
