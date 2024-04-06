@@ -1,6 +1,9 @@
-﻿namespace DashboardFinnhub.Components
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace DashboardFinnhub.Components
 {
-    public class TableStockInfoViewComponent
+    [ViewComponent]
+    public class TableStockInfoViewComponent : ViewComponent
     {
     }
 }
