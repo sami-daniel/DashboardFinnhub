@@ -1,0 +1,57 @@
+﻿@using DashboardFinnhub.Models
+@model Stock
+
+<tr>
+    <td>
+        @ViewBag.Symbol
+    </td>
+    <td>
+        <span class="fst-italic fw-bold">$</span>@if (Model.CurrentPrice is not null)
+        {
+            @Model.CurrentPrice
+        }
+        else
+        {
+            <text>Can't get Current Price</text>
+        }
+    </td>
+    <td>
+        <span class="fst-italic fw-bold">$</span>@if (Model.HighPriceoftheDay is not null)
+        {
+            @Model.HighPriceoftheDay
+        }
+        else
+        {
+            <text>Can't get High Price of the Day</text>
+        }
+    </td>
+    <td>
+        <span class="fst-italic fw-bold">$</span>@if (Model.LowPriceoftheDay is not null)
+        {
+            @Model.LowPriceoftheDay
+        }
+        else
+        {
+            <text>Can't get Low Price of The Day</text>
+        }
+    </td>
+    <td>
+        <span class="fst-italic fw-bold">$</span>@if(Model.OpenPriceoftheDay is not null){
+            @Model.OpenPriceoftheDay
+        }
+        else
+        {
+            <text>Can't get Open Price of the Day</text>
+        }
+    </td>
+    <td>
+        <span class="fst-italic fw-bold">$</span>@if (Model.PreviousClosePrice is not null)
+        {
+            @Model.PreviousClosePrice
+        }
+        else
+        {
+            <text>Can't get Previous Close Price</text>
+        }
+    </td>
+</tr>
