@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DashboardFinnhub")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c91eeb5e7e1bf89fa240091e5fa5cff8c329dce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71e7dd05e6f69f9bff5ea5f1d63aed3afd1492e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("DashboardFinnhub")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DashboardFinnhub")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
