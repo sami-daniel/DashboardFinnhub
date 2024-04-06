@@ -1,11 +1,11 @@
 ﻿namespace DashboardFinnhub.Models
 {
-    internal class Stock(double c, double h, double l, double o, double pc)
+    public class Stock(double? c, double? h, double? l, double? o, double? pc)
     {
-        public double CurrentPrice { get; } = c;
-        public double HighPriceoftheDay{ get; } = h;
-        public double LowPriceoftheDay { get; } = l;
-        public double OpenPriceoftheDay { get; } = o;
-        public double PreviousClosePrice { get; } = pc;
+        public double? CurrentPrice { get; } = c;
+        public double? HighPriceoftheDay{ get; } = h;
+        public double? LowPriceoftheDay { get; } = l;
+        public double? OpenPriceoftheDay { get; } = o;
+        public double? PreviousClosePrice { get; } = pc;
     }
 }
