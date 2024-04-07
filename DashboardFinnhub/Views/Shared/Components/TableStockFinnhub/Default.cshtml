@@ -1,0 +1,59 @@
+﻿@using DashboardFinnhub.Models
+@using System.Globalization
+@model Stock
+
+<tr>
+    <td>
+        @Model.Name
+    </td>
+    <td>
+        <span class="fst-italic fw-bold">$</span>@if (Model.CurrentPrice is not null)
+        {
+            @Math.Round(Convert.ToDecimal(Model.CurrentPrice), 2)
+        }
+        else
+        {
+            <text>Can't get Current Price</text>
+        }
+    </td>
+    <td>
+        <span class="fst-italic fw-bold">$</span>@if (Model.HighPriceoftheDay is not null)
+        {
+            @Math.Round(Convert.ToDecimal(Model.HighPriceoftheDay), 2)
+        }
+        else
+        {
+            <text>Can't get High Price of the Day</text>
+        }
+    </td>
+    <td>
+        <span class="fst-italic fw-bold">$</span>@if (Model.LowPriceoftheDay is not null)
+        {
+            @Math.Round(Convert.ToDecimal(Model.LowPriceoftheDay), 2)
+        }
+        else
+        {
+            <text>Can't get Low Price of The Day</text>
+        }
+    </td>
+    <td>
+        <span class="fst-italic fw-bold">$</span>@if (Model.OpenPriceoftheDay is not null)
+        {
+            @Math.Round(Convert.ToDecimal(Model.OpenPriceoftheDay), 2)
+        }
+        else
+        {
+            <text>Can't get Open Price of the Day</text>
+        }
+    </td>
+    <td>
+        <span class="fst-italic fw-bold">$</span>@if (Model.PreviousClosePrice is not null)
+        {
+            @Math.Round(Convert.ToDecimal(Model.PreviousClosePrice), 2)
+        }
+        else
+        {
+            <text>Can't get Previous Close Price</text>
+        }
+    </td>
+</tr>
