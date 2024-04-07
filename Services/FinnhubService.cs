@@ -14,7 +14,7 @@ namespace Services
                 HttpRequestMessage httpRequestMessage = new()
                 {
                     RequestUri = new Uri($"https://finnhub.io/api/v1/quote?symbol={stockSymbol}&token={configuration.GetSection("FinnhubAPI").GetValue<string>("AcessToken")}"),
-                    Method = HttpMethod.Post
+                    Method = HttpMethod.Get
                 };
 
                 var httpResponseMessage = await httpClient.SendAsync(httpRequestMessage);
