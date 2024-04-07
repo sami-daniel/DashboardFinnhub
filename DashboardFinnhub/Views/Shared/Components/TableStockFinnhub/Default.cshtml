@@ -9,7 +9,7 @@
     <td>
         <span class="fst-italic fw-bold">$</span>@if (Model.CurrentPrice is not null)
         {
-            @Model.CurrentPrice
+            @Math.Round(Convert.ToDecimal(Model.CurrentPrice), 2)
         }
         else
         {
@@ -19,7 +19,7 @@
     <td>
         <span class="fst-italic fw-bold">$</span>@if (Model.HighPriceoftheDay is not null)
         {
-            @Model.HighPriceoftheDay
+            @Math.Round(Convert.ToDecimal(Model.HighPriceoftheDay), 2)
         }
         else
         {
@@ -29,7 +29,7 @@
     <td>
         <span class="fst-italic fw-bold">$</span>@if (Model.LowPriceoftheDay is not null)
         {
-            @Model.LowPriceoftheDay
+            @Math.Round(Convert.ToDecimal(Model.LowPriceoftheDay), 2)
         }
         else
         {
@@ -39,7 +39,7 @@
     <td>
         <span class="fst-italic fw-bold">$</span>@if (Model.OpenPriceoftheDay is not null)
         {
-            @Model.OpenPriceoftheDay
+            @Math.Round(Convert.ToDecimal(Model.OpenPriceoftheDay), 2)
         }
         else
         {
@@ -49,7 +49,7 @@
     <td>
         <span class="fst-italic fw-bold">$</span>@if (Model.PreviousClosePrice is not null)
         {
-            @Model.PreviousClosePrice
+            @Math.Round(Convert.ToDecimal(Model.PreviousClosePrice), 2)
         }
         else
         {

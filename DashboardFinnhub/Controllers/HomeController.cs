@@ -9,40 +9,25 @@ namespace DashboardFinnhub.Controllers
     {
         readonly IFinnhubService _finnhubService = finnhubService;
         [Route("/")]
-        public async Task<IActionResult> Index([FromQuery] string symbol = "ALL")
+        public async Task<IActionResult> Index([FromQuery] string stockSymbol = "AAPL")
         {
-            symbol.ToUpper();
-            List<string> stockSymbols =
-            [
-                "AAPL", "GOOGL", "MSFT"
-            ];
-            List<Stock> stocks = [];
-            if (symbol == "ALL")
+            var symbol = stockSymbol.ToUpper();
+            var stocks = new List<Stock>();
+            Dictionary<string, object>? response = await _finnhubService.GetStockPriceQuote(symbol);
+            response.Remove("d");
+            response.Remove("dp");
+            response.Remove("t");
+            if (response!.ContainsKey("error") || response.All(item => TryParse(item.Value.ToString()) == 0d))
             {
-                foreach (var item in stockSymbols)
-                {
-                    Dictionary<string, object>? response = await _finnhubService.GetStockPriceQuote(item);
-                    double? c = TryParse(response?["c"]?.ToString());
-                    double? h = TryParse(response?["h"]?.ToString());
-                    double? l = TryParse(response?["l"]?.ToString());
-                    double? o = TryParse(response?["o"]?.ToString());
-                    double? pc = TryParse(response?["pc"]?.ToString());
-                    stocks.Add(new Stock(item ,c, h, l, o, pc));
-                }
+                return NotFound("The Stock Symbol cant be found");
             }
-            else
-            {
-                foreach (var item in stockSymbols.Where(s => s.Contains("AAPL")))
-                {
-                    Dictionary<string, object>? response = await _finnhubService.GetStockPriceQuote(item);
-                    double? c = TryParse(response?["c"]?.ToString());
-                    double? h = TryParse(response?["h"]?.ToString());
-                    double? l = TryParse(response?["l"]?.ToString());
-                    double? o = TryParse(response?["o"]?.ToString());
-                    double? pc = TryParse(response?["pc"]?.ToString());
-                    stocks.Add(new Stock(item ,c, h, l, o, pc));
-                }
-            }
+            double? c = TryParse(response?["c"]?.ToString());
+            double? h = TryParse(response?["h"]?.ToString());
+            double? l = TryParse(response?["l"]?.ToString());
+            double? o = TryParse(response?["o"]?.ToString());
+            double? pc = TryParse(response?["pc"]?.ToString());
+            stocks.Add(new Stock(symbol, c, h, l, o, pc));
+
             return View(stocks);
         }
 
