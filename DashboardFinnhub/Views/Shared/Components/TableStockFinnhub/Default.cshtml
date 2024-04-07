@@ -4,9 +4,9 @@
 
 <tr>
     <td>
-        @Model.Name
+        @Model.Symbol
     </td>
-    <td>
+    <td class="text-center">
         <span class="fst-italic fw-bold">$</span>@if (Model.CurrentPrice is not null)
         {
             @Math.Round(Convert.ToDecimal(Model.CurrentPrice), 2)
@@ -54,6 +54,66 @@
         else
         {
             <text>Can't get Previous Close Price</text>
+        }
+    </td>
+    <td>
+        @if (Model.Country is not null)
+        {
+            @Model.Country
+        }
+        else
+        {
+            <text>Can't get Country</text>
+        }
+    </td>
+    <td>
+        @if (Model.SiteURL is not null)
+        {
+            <a href="@Model.SiteURL">@Model.SiteURL</a>
+        }
+        else
+        {
+            <text>Can't get Site URL</text>
+        }
+    </td>
+    <td>
+        @if (Model.Exchange is not null)
+        {
+            @Model.Exchange
+        }
+        else
+        {
+            <text>Can't get Exchange</text>
+        }
+    </td>
+    <td>
+        @if (Model.Industry is not null)
+        {
+            @Model.Industry
+        }
+        else
+        {
+            <text>Can't get Industry</text>
+        }
+    </td>
+    <td>
+        @if (Model.EstimateCurrency is not null)
+        {
+            @Model.EstimateCurrency
+        }
+        else
+        {
+            <text>Can't get Estimate Currency</text>
+        }
+    </td>
+    <td>
+        @if (Model.Name is not null)
+        {
+            @Model.Name
+        }
+        else
+        {
+            <text>Can't get Name</text>
         }
     </td>
 </tr>
