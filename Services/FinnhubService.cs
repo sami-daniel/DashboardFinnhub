@@ -13,7 +13,7 @@ namespace Services
             {
                 HttpRequestMessage httpRequestMessage = new()
                 {
-                    RequestUri = new Uri($"https://finnhub.io/api/v1/quote?symbol={stockSymbol}&token={configuration.GetSection("FinnhubAPI").GetValue<string>("AcessToken")}"),
+                    RequestUri = new Uri($"https://finnhub.io/api/v1/quote?symbol={stockSymbol}&token={configuration["FinnhubToken"]?.ToString()}"),
                     Method = HttpMethod.Get
                 };
 

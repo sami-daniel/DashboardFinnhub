@@ -1,9 +1,10 @@
 ﻿@using DashboardFinnhub.Models
+@using System.Globalization
 @model Stock
 
 <tr>
     <td>
-        @ViewBag.Symbol
+        @Model.Name
     </td>
     <td>
         <span class="fst-italic fw-bold">$</span>@if (Model.CurrentPrice is not null)
@@ -36,7 +37,8 @@
         }
     </td>
     <td>
-        <span class="fst-italic fw-bold">$</span>@if(Model.OpenPriceoftheDay is not null){
+        <span class="fst-italic fw-bold">$</span>@if (Model.OpenPriceoftheDay is not null)
+        {
             @Model.OpenPriceoftheDay
         }
         else

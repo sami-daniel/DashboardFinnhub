@@ -27,7 +27,7 @@ namespace DashboardFinnhub.Controllers
                     double? l = TryParse(response?["l"]?.ToString());
                     double? o = TryParse(response?["o"]?.ToString());
                     double? pc = TryParse(response?["pc"]?.ToString());
-                    stocks.Add(new Stock(c, h, l, o, pc));
+                    stocks.Add(new Stock(item ,c, h, l, o, pc));
                 }
             }
             else
@@ -40,10 +40,10 @@ namespace DashboardFinnhub.Controllers
                     double? l = TryParse(response?["l"]?.ToString());
                     double? o = TryParse(response?["o"]?.ToString());
                     double? pc = TryParse(response?["pc"]?.ToString());
-                    stocks.Add(new Stock(c, h, l, o, pc));
+                    stocks.Add(new Stock(item ,c, h, l, o, pc));
                 }
             }
-            return View();
+            return View(stocks);
         }
 
         private static double? TryParse(string? input)
