@@ -1,6 +1,7 @@
 ﻿using DashboardFinnhub.Models;
 using Microsoft.AspNetCore.Mvc;
 using ServicesAbstractions;
+using System.Globalization;
 
 namespace DashboardFinnhub.Controllers
 {
@@ -11,7 +12,13 @@ namespace DashboardFinnhub.Controllers
         public IActionResult Index([FromQuery] string symbol = "ALL")
         {
             
-            return View();
+        }
+
+        private double? TryParse(string input)
+        {
+            double result;
+            var sucess = double.TryParse(input, CultureInfo.InvariantCulture, out result);
+            return sucess ? result : null;
         }
     }
 }
