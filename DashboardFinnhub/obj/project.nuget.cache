@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KlHxZHlTO5Mxh5W51UdK5DCoYzbmKwV9BtOoeIBWixR0bRIsLZqMvsBZbMdhAYhRpSBnFuWqm3UV7vuBFJLDBQ==",
+  "dgSpecHash": "f7dsu5285t+MILuvqd4UTtsvJUgvyRwPxObTxyRVY8QQ75AiNOflms52R7GE4hzMJSvCSoNcjtAhBKLFbufBeg==",
   "success": true,
-  "projectFilePath": "E:\\sami\\aspnetrepos\\DashboardFinnhub\\DashboardFinnhub\\DashboardFinnhub.csproj",
+  "projectFilePath": "E:\\sami\\aspnetrepos\\Dash\\DashboardFinnhub\\DashboardFinnhub\\DashboardFinnhub.csproj",
   "expectedPackageFiles": [
     "c:\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "c:\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

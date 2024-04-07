@@ -820,11 +820,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\sami\\aspnetrepos\\DashboardFinnhub\\DashboardFinnhub\\DashboardFinnhub.csproj",
+      "projectUniqueName": "E:\\sami\\aspnetrepos\\Dash\\DashboardFinnhub\\DashboardFinnhub\\DashboardFinnhub.csproj",
       "projectName": "DashboardFinnhub",
-      "projectPath": "E:\\sami\\aspnetrepos\\DashboardFinnhub\\DashboardFinnhub\\DashboardFinnhub.csproj",
+      "projectPath": "E:\\sami\\aspnetrepos\\Dash\\DashboardFinnhub\\DashboardFinnhub\\DashboardFinnhub.csproj",
       "packagesPath": "c:\\packages",
-      "outputPath": "E:\\sami\\aspnetrepos\\DashboardFinnhub\\DashboardFinnhub\\obj\\",
+      "outputPath": "E:\\sami\\aspnetrepos\\Dash\\DashboardFinnhub\\DashboardFinnhub\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sami\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -842,11 +842,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\sami\\aspnetrepos\\DashboardFinnhub\\ServicesAbstractions\\ServicesAbstractions.csproj": {
-              "projectPath": "E:\\sami\\aspnetrepos\\DashboardFinnhub\\ServicesAbstractions\\ServicesAbstractions.csproj"
+            "E:\\sami\\aspnetrepos\\Dash\\DashboardFinnhub\\ServicesAbstractions\\ServicesAbstractions.csproj": {
+              "projectPath": "E:\\sami\\aspnetrepos\\Dash\\DashboardFinnhub\\ServicesAbstractions\\ServicesAbstractions.csproj"
             },
-            "E:\\sami\\aspnetrepos\\DashboardFinnhub\\Services\\Services.csproj": {
-              "projectPath": "E:\\sami\\aspnetrepos\\DashboardFinnhub\\Services\\Services.csproj"
+            "E:\\sami\\aspnetrepos\\Dash\\DashboardFinnhub\\Services\\Services.csproj": {
+              "projectPath": "E:\\sami\\aspnetrepos\\Dash\\DashboardFinnhub\\Services\\Services.csproj"
             }
           }
         }

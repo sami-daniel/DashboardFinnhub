@@ -9,27 +9,27 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DashboardFinnhub
 build_property.RootNamespace = DashboardFinnhub
-build_property.ProjectDir = E:\sami\aspnetrepos\DashboardFinnhub\DashboardFinnhub\
+build_property.ProjectDir = E:\sami\aspnetrepos\Dash\DashboardFinnhub\DashboardFinnhub\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\sami\aspnetrepos\DashboardFinnhub\DashboardFinnhub
+build_property.MSBuildProjectDirectory = E:\sami\aspnetrepos\Dash\DashboardFinnhub\DashboardFinnhub
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/sami/aspnetrepos/DashboardFinnhub/DashboardFinnhub/Views/Home/Index.cshtml]
+[E:/sami/aspnetrepos/Dash/DashboardFinnhub/DashboardFinnhub/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/sami/aspnetrepos/DashboardFinnhub/DashboardFinnhub/Views/Shared/Components/TableStockFinnhub/Default.cshtml]
+[E:/sami/aspnetrepos/Dash/DashboardFinnhub/DashboardFinnhub/Views/Shared/Components/TableStockFinnhub/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVGFibGVTdG9ja0Zpbm5odWJcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/sami/aspnetrepos/DashboardFinnhub/DashboardFinnhub/Views/Shared/_Layout.cshtml]
+[E:/sami/aspnetrepos/Dash/DashboardFinnhub/DashboardFinnhub/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/sami/aspnetrepos/DashboardFinnhub/DashboardFinnhub/Views/_ViewStart.cshtml]
+[E:/sami/aspnetrepos/Dash/DashboardFinnhub/DashboardFinnhub/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
