@@ -1,3 +1,6 @@
+using Services;
+using ServicesAbstractions;
+
 namespace DashboardFinnhub
 {
     public class Program
@@ -5,6 +8,7 @@ namespace DashboardFinnhub
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.Services.AddScoped<IFinnhubService, FinnhubService>();
             builder.Services.AddControllersWithViews();
             builder.Services.AddHttpClient();
             var app = builder.Build();
