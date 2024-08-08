@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\sami\\aspnetrepos\\Dash\\DashboardFinnhub\\DashboardFinnhub\\DashboardFinnhub.csproj": {}
+    "H:\\Visual Studio 2022\\Projects\\DashboardFinnhub\\DashboardFinnhub\\DashboardFinnhub.csproj": {}
   },
   "projects": {
-    "E:\\sami\\aspnetrepos\\Dash\\DashboardFinnhub\\DashboardFinnhub\\DashboardFinnhub.csproj": {
+    "H:\\Visual Studio 2022\\Projects\\DashboardFinnhub\\DashboardFinnhub\\DashboardFinnhub.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\sami\\aspnetrepos\\Dash\\DashboardFinnhub\\DashboardFinnhub\\DashboardFinnhub.csproj",
+        "projectUniqueName": "H:\\Visual Studio 2022\\Projects\\DashboardFinnhub\\DashboardFinnhub\\DashboardFinnhub.csproj",
         "projectName": "DashboardFinnhub",
-        "projectPath": "E:\\sami\\aspnetrepos\\Dash\\DashboardFinnhub\\DashboardFinnhub\\DashboardFinnhub.csproj",
-        "packagesPath": "c:\\packages",
-        "outputPath": "E:\\sami\\aspnetrepos\\Dash\\DashboardFinnhub\\DashboardFinnhub\\obj\\",
+        "projectPath": "H:\\Visual Studio 2022\\Projects\\DashboardFinnhub\\DashboardFinnhub\\DashboardFinnhub.csproj",
+        "packagesPath": "C:\\Users\\22201491\\.nuget\\packages\\",
+        "outputPath": "H:\\Visual Studio 2022\\Projects\\DashboardFinnhub\\DashboardFinnhub\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Sami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\22201491\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,18 +22,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\sami\\aspnetrepos\\Dash\\DashboardFinnhub\\ServicesAbstractions\\ServicesAbstractions.csproj": {
-                "projectPath": "E:\\sami\\aspnetrepos\\Dash\\DashboardFinnhub\\ServicesAbstractions\\ServicesAbstractions.csproj"
+              "H:\\Visual Studio 2022\\Projects\\DashboardFinnhub\\ServicesAbstractions\\ServicesAbstractions.csproj": {
+                "projectPath": "H:\\Visual Studio 2022\\Projects\\DashboardFinnhub\\ServicesAbstractions\\ServicesAbstractions.csproj"
               },
-              "E:\\sami\\aspnetrepos\\Dash\\DashboardFinnhub\\Services\\Services.csproj": {
-                "projectPath": "E:\\sami\\aspnetrepos\\Dash\\DashboardFinnhub\\Services\\Services.csproj"
+              "H:\\Visual Studio 2022\\Projects\\DashboardFinnhub\\Services\\Services.csproj": {
+                "projectPath": "H:\\Visual Studio 2022\\Projects\\DashboardFinnhub\\Services\\Services.csproj"
               }
             }
           }
@@ -42,11 +41,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -71,21 +65,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\sami\\aspnetrepos\\Dash\\DashboardFinnhub\\ServicesAbstractions\\ServicesAbstractions.csproj": {
+    "H:\\Visual Studio 2022\\Projects\\DashboardFinnhub\\ServicesAbstractions\\ServicesAbstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\sami\\aspnetrepos\\Dash\\DashboardFinnhub\\ServicesAbstractions\\ServicesAbstractions.csproj",
+        "projectUniqueName": "H:\\Visual Studio 2022\\Projects\\DashboardFinnhub\\ServicesAbstractions\\ServicesAbstractions.csproj",
         "projectName": "ServicesAbstractions",
-        "projectPath": "E:\\sami\\aspnetrepos\\Dash\\DashboardFinnhub\\ServicesAbstractions\\ServicesAbstractions.csproj",
-        "packagesPath": "c:\\packages",
-        "outputPath": "E:\\sami\\aspnetrepos\\Dash\\DashboardFinnhub\\ServicesAbstractions\\obj\\",
+        "projectPath": "H:\\Visual Studio 2022\\Projects\\DashboardFinnhub\\ServicesAbstractions\\ServicesAbstractions.csproj",
+        "packagesPath": "C:\\Users\\22201491\\.nuget\\packages\\",
+        "outputPath": "H:\\Visual Studio 2022\\Projects\\DashboardFinnhub\\ServicesAbstractions\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Sami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\22201491\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,7 +87,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -106,11 +99,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -132,21 +120,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\sami\\aspnetrepos\\Dash\\DashboardFinnhub\\Services\\Services.csproj": {
+    "H:\\Visual Studio 2022\\Projects\\DashboardFinnhub\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\sami\\aspnetrepos\\Dash\\DashboardFinnhub\\Services\\Services.csproj",
+        "projectUniqueName": "H:\\Visual Studio 2022\\Projects\\DashboardFinnhub\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "E:\\sami\\aspnetrepos\\Dash\\DashboardFinnhub\\Services\\Services.csproj",
-        "packagesPath": "c:\\packages",
-        "outputPath": "E:\\sami\\aspnetrepos\\Dash\\DashboardFinnhub\\Services\\obj\\",
+        "projectPath": "H:\\Visual Studio 2022\\Projects\\DashboardFinnhub\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\22201491\\.nuget\\packages\\",
+        "outputPath": "H:\\Visual Studio 2022\\Projects\\DashboardFinnhub\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Sami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\22201491\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -154,15 +142,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\sami\\aspnetrepos\\Dash\\DashboardFinnhub\\ServicesAbstractions\\ServicesAbstractions.csproj": {
-                "projectPath": "E:\\sami\\aspnetrepos\\Dash\\DashboardFinnhub\\ServicesAbstractions\\ServicesAbstractions.csproj"
+              "H:\\Visual Studio 2022\\Projects\\DashboardFinnhub\\ServicesAbstractions\\ServicesAbstractions.csproj": {
+                "projectPath": "H:\\Visual Studio 2022\\Projects\\DashboardFinnhub\\ServicesAbstractions\\ServicesAbstractions.csproj"
               }
             }
           }
@@ -171,11 +158,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -203,7 +185,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
